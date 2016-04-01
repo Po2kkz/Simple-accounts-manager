@@ -1,0 +1,56 @@
+﻿<Controls:MetroWindow x:Class="Simple_Accounts_Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Simple_Accounts_Manager"
+        mc:Ignorable="d"
+        SaveWindowPosition="True"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        ResizeMode="CanResizeWithGrip"
+        
+        Title="Simple Accounts Manager" Height="450" Width="950" Closing="onClose" Initialized="MetroWindow_Initialized">
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button Click="BtnSaveClick">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20"
+                               Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_save}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                    <TextBlock Margin="4 0 0 0" VerticalAlignment="Center" Text="Save" />
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="65" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <DataGrid ItemsSource="{Binding}" x:Name="dataGrid" VerticalAlignment="Stretch"  BorderThickness="1" Grid.Row ="0" Grid.Column="1" IsReadOnly="True" ColumnWidth="*" IsSynchronizedWithCurrentItem="True">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Delete the account" Click="DeleteAccount" />
+                    <MenuItem Header="Edit the account" Click="EditAccount" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+        <Button x:Name="ExportList" Content="Export list" Margin="0,0,10,5" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="100" Grid.Row="1" Grid.Column="1"/>
+        <Button x:Name="PasswordGenerator" Content="Password Generator" Margin="0,0,140,3" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="125" Grid.Row="1" Grid.Column="1" Click="GeneratePassword_Click"/>
+        <Button x:Name="AddAccount" Content="Add an account" Margin="0,5,140,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Width="106" Grid.Row="1" Grid.Column="1" Click="AddAccount_Click"/>
+        <Button x:Name="Backup" Content="Backup" Margin="0,5,10,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Grid.Row="1" Grid.Column="1"/>
+        <StatusBar  Grid.Row="2" Grid.Column="1">
+        <StatusBarItem>Simple Accounts Manager by: Warix3</StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Controls:MetroWindow>

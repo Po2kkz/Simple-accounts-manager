@@ -1,0 +1,33 @@
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\Simple Accounts Manager.exe.config
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\Simple Accounts Manager.exe
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\Simple Accounts Manager.pdb
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\MahApps.Metro.dll
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\System.Windows.Interactivity.dll
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\MahApps.Metro.pdb
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\MahApps.Metro.xml
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple Accounts Manager.csprojResolveAssemblyReference.cache
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\MainWindow.g.cs
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\App.g.cs
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple Accounts Manager_MarkupCompile.cache
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple Accounts Manager_MarkupCompile.lref
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\MainWindow.baml
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple Accounts Manager.g.resources
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple_Accounts_Manager.Properties.Resources.resources
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple Accounts Manager.csproj.GenerateResource.Cache
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple Accounts Manager.exe
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Simple Accounts Manager.pdb
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\App.baml
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\AddAccountWin.g.cs
+c:\users\tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\AddAccountWin.baml
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Resources\Icons.baml
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Resources\Icons.g.cs
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\PwGenWin.g.cs
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\PwGenWin.baml
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\EditAccountWin.g.cs
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\EditAccountWin.baml
+C:\Users\Tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\Demot.RandomOrgApi.dll
+C:\Users\Tn1\documents\visual studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\bin\Debug\Demot.RandomOrgApi.pdb
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Login.g.cs
+C:\Users\Tn1\Documents\Visual Studio 2015\Projects\Simple Accounts Manager\Simple Accounts Manager\obj\Debug\Login.baml
